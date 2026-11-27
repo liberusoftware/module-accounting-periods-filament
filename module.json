@@ -3,7 +3,7 @@
   "name": "accounting-periods-filament",
   "display_name": "Accounting Periods Filament",
   "description": "Filament resource for period visibility and lifecycle operations.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "presentation",
   "provider": "Liberu\\Accounting\\PeriodsFilament\\AccountingPeriodsFilamentServiceProvider",
   "requires": {
@@ -21,5 +21,12 @@
     "State visibility",
     "Posting window visibility"
   ],
-  "default_enabled": false
+  "default_enabled": true,
+  "presentation": {
+    "filament": {
+      "app": [
+        "Liberu\\Accounting\\PeriodsFilament\\AccountingPeriodsFilamentPlugin"
+      ]
+    }
+  }
 }
